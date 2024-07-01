@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.slack-name {
+  display: flex;
+  align-items: center;
+}
+
+.slackname {
+  background-color: #2f3645;
+  padding: 5px;
+  border-radius: 3px;
+  color: #eeedeb;
+  font-size: large;
+  margin-left: 10px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: #eeedeb;
+  border-radius: 3px;
+  height: 100vh;
+}
+
+.image-div {
+  background-color: #2f3645;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.currentTime-div {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+
+.link-div {
+  display: flex;
+  list-style: none;
+  font-size: small;
+}
+
+.link-div li {
+  margin-left: 10px;
+  background-color: #2f3645;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.link-div li a {
+  color: #eeedeb;
+  text-decoration: none;
+}
+
+#current-time {
+  background-color: #2f3645;
+  padding: 5px;
+  border-radius: 3px;
+  color: #eeedeb;
+  margin-left: 5px;
+}
+
+#current-day {
+  background-color: #2f3645;
+  padding: 5px;
+  border-radius: 3px;
+  color: #eeedeb;
+  margin-left: 5px;
+}
+
+.slack-email {
+  background-color: #2f3645;
+  padding: 5px;
+  border-radius: 3px;
+  color: #eeedeb;
+  margin-left: 5px;
+}
