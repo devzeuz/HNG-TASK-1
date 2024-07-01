@@ -5,6 +5,7 @@ body {
   justify-content: center;
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 400;
+  background-color: red;
 }
 
 .slack-name {
