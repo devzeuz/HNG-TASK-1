@@ -29,7 +29,6 @@ body {
   width: 300px;
   background-color: #eeedeb;
   border-radius: 3px;
-  height: 100vh;
 }
 
 .image-div {
@@ -84,4 +83,18 @@ body {
   border-radius: 3px;
   color: #eeedeb;
   margin-left: 5px;
+}
+.goals {
+  border: 1px solid #2f3645;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: small;
+  text-align: center;
+}
+
+.goals:hover {
+  background-color: #2f3645;
+  color: #eeedeb;
+  border: 1px solid #eeedeb;
 }
